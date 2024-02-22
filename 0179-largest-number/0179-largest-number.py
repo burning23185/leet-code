@@ -1,7 +1,4 @@
 class Solution:
-    import sys
-
-class Solution:
     def _merge(self, arr1, arr2):
         result = []
         i = j = 0
