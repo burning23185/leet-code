@@ -12,6 +12,3 @@ class Solution:
                     continue
                 
         return '0' if sum(nums) == 0 else ''.join(str(n) for n in nums)
-    
-s = Solution()
-print(s.largestNumber([10,2,9,39,17]))
