@@ -4,8 +4,8 @@ class Solution:
         edges = [[] for _ in range(n+1)]
 
         for i in range(len(times)):
-            u, v, weight = times[i]
-            edges[u].append((v, weight))
+            cur, adj, weight = times[i]
+            edges[cur].append((adj, weight))
         
         #나올 수 없는 최대 거리 = (간선 수 + 1) * 최대 가중치
         max_weight = 100 * len(times)
